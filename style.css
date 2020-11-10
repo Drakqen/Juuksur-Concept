@@ -1,0 +1,38 @@
+.flex {
+    display:flex;
+}
+
+i {
+    font-size: 20px;
+}
+
+i {
+    width:20px;
+    height: 20px;
+}
+
+banner {
+    height:fit-content;
+    min-height: 50px;
+    max-height: 90px;
+    background-color:;
+    font-family:;
+    color:;
+    text-align: center;
+}
+
+.bannerText {
+    
+}
+
+.center {
+    align-items: center;
+}
+
+ul {
+    list-style-type:none;
+}
+nav {
+    
+    
+}
