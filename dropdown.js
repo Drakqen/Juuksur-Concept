@@ -2,6 +2,11 @@ function dropdown() {
     document.getElementById("dropdown").classList.toggle("show");
   }
   
+function function1() {
+  var element = document.getElementById("button");
+        element.classList.toggle("scaled");
+}
+
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -10,8 +15,7 @@ function dropdown() {
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
             openDropdown.classList.remove('show');
-        }
-     
+      }
     }
   }
 }
@@ -20,6 +24,11 @@ function dropdown() {
 
 function dropdown1() {
   document.getElementById("dropdown1").classList.toggle("show");
+}
+
+function function2() {
+  var element = document.getElementById("button1");
+        element.classList.toggle("scaled");
 }
 
 window.onclick = function(event) {
@@ -39,6 +48,11 @@ function dropdown2() {
   document.getElementById("dropdown2").classList.toggle("show");
 }
 
+function function3() {
+  var element = document.getElementById("button2");
+        element.classList.toggle("scaled");
+}
+
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn2')) {
       var dropdowns = document.getElementsByClassName("dropdown-content2");
@@ -53,11 +67,3 @@ window.onclick = function(event) {
 }
 }
 
-
-
-$(function() {
-  $('.dropbtn').on('click', function(){
-    $('.dropbtn').not($(this)).removeClass('scaled');
-    $(this).toggleClass('scaled');
-  });
-});

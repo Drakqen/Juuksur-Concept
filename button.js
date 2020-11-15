@@ -4,3 +4,10 @@ $(function() {
       $(this).toggleClass('scaled');
     });
   });
+
+  $(function() {
+    $('.dropbtn').on('click', function(){
+      $('.dropdown-content').not($(this)).addClass('show');
+      $(this).toggleClass('show');
+    });
+  });
