@@ -1,0 +1,32 @@
+[
+    {
+        "ID": 10,
+        "name" : "banaan",
+        "img_url" : "/photos/1.png",
+        "hind" : "10"
+    },
+    {
+        "ID": 1,
+        "nimi" : "banaan",
+        "img" : "link",
+        "hind" : "10"
+    },
+    {
+        "ID": 11,
+        "nimi" : "banaan",
+        "img" : "link",
+        "hind" : "10"
+    },
+    {
+        "ID": 12,
+        "nimi" : "banaan",
+        "img" : "link",
+        "hind" : "10"
+    },
+    {
+        "ID": 13,
+        "nimi" : "banaan",
+        "img" : "link",
+        "hind" : "10"
+    }
+]
